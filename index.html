@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Формы</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+	<body>
+		<!--
+	<form action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<input placeholder="Поле ввода" type="text" name="username" value="">
+		</div>
+		<div>
+			<input type="password" name="userpass" value="">
+		</div>
+		<div>
+			<p><input checked type="radio" name="beer" value="lager">Светлое пиво</p>
+			<p><input type="radio" name="beer" value="dark">Темное пиво</p>
+		</div>
+		<br>
+		<div>
+			<p><input type="radio" name="beer2" value="lager">Светлое пиво</p>
+			<p><input type="radio" name="beer2" value="dark">Темное пиво</p>
+		</div>
+		<br>
+		<div>
+			<p><input checked type="checkbox" name="beer4" value="lager">Светлое пиво</p>
+			<p><input type="checkbox" name="beer5" value="dark">Темное пиво</p>
+		</div>
+		<br>
+		<div>
+			<p><input type="file" name="foto"></p>
+		</div>
+		<br>
+		<div>
+			<textarea placeholder="Текст" name="text"></textarea>
+		</div>
+		<br>
+		<div>
+			<select name="Town">
+				<option value="Glory">Глори</option>
+				<option value="Story">Стори</option>
+				<option value="Mory">Мори</option>
+				<option value="Lary">Лари</option>
+				<option value="Bory">Бори</option>
+				Указывает по умолчанию на выбранный элемент
+				<option selected value="Bory">Бори</option>
+				Указывает на несколько выбранных элементов
+				<option multiple value="Bory">Бори</option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<button type="reset">Отправить</button>
+		<div>
+	</form>
+	
+		<form target="_blank" action="#" method="post" enctype="multipart/form-data">
+			<div>
+				<h2>Имя</h2>
+				<p><input tabindex="1" placeholder="Имя" type="text" name="username" value=""></p>
+			</div>
+			<br>
+			<div>
+				<h2>Пароль</h2>
+				<p><input tabindex="2" placeholder="Пароль" type="password" name="userpass" value=""></p>
+			</div>
+			<br>
+			<div>
+				<h2>Телефон</h2>
+				<p><input tabindex="3" placeholder="Телефон" type="tel" name="userphone" value=""></p>
+			</div>
+			<br>
+			<div>
+				<h2>Пол</h2>
+					<div><input checked type="radio" name="pol" value="man">Мужской</div>
+					<div><input type="radio" name="pol" value="woman">Женский</div>
+			</div>
+			<br>
+			<div>
+				<h2>Имущество</h2>
+					<div><input checked type="checkbox" name="imyshestvo1" value="Yes">Ласопед</div>
+					<div><input type="checkbox" name="imyshestvo2" value="Yes">Машина</div>
+					<div><input disabled type="checkbox" name="Yes" value="hata">Квартира</div>
+			</div>
+			<br>
+			<div>
+				<h2>Дополнительная информация</h2>
+				<p><textarea placeholder="О себе" name="text"></textarea></p>
+			</div>
+			<br>
+			<div>
+				<h2>Прикрепить фото</h2>
+				<p><input type="file" name="foto"></p>
+			</div>
+			<br>
+			<div>
+				<h2>Любимый цвет</h2>
+					<select name="Color">
+						<option selected value="Red">Красный</option>
+						<option selected value="Yellow">Желтый</option>
+						<option selected value="Green">Зеленый</option>
+					</select>
+			</div>
+			<br>
+			<div>
+				<h2>Действия</h2>
+				<button type="submit">Послать</button>
+				<button type="reset">Очистить</button>
+			</div>
+		</form>
+			-->
+
+	<form target="_blank" action="#" method="post" enctype="multipart/form-data">
+		<div>
+			<p><b>ФИО:</b></p>
+			<input tabindex="1" placeholder="Фамилия" type="text" name="familiya" value="">
+			<input tabindex="2" placeholder="Имя" type="text"name="imya" value="">
+			<input tabindex="3" placeholder="Отчество" type="text"name="otchestvo" value="">
+		</div>
+		<div>
+			<p><b>Укажи свой телефон:</b></p>
+			<input tabindex="4" placeholder="Мобильный" type="tel" name="userphone" value="">
+		</div>
+		<div>
+			<p><b>Пароль:</b></p>
+			<input tabindex="5" placeholder="Пароль" type="password" name="userpass" value="">
+		</div>
+		<div>
+			<p><b>Пол:</b></p>
+			<select name="pol">
+				<option value="male">Мужик</option>
+				<option value="female">Баба</option>
+				<option selected value="Soberis tryapka">Соберись тряпка!</option>
+			</select>
+		<div>
+			<p><b>Раскажите немного о себе:</b></p>
+			<textarea tabindex="4" name="text" rows="5" cols="21" placeholder="Укажите свои увлечения и хобби, цели на будущее"></textarea>
+		</div>
+		<div>
+			<p><b>Вопрос №1:</b></p>
+				<div><input type="radio" name="quetion 1" value="answer 1">Ответ 1</div>
+				<div><input type="radio" name="quetion 1" value="answer 2">Ответ 2</div>
+		</div>
+		<div>
+			<p><b>Вопрос №2:</b></p>
+				<div><input type="radio" name="quetion 2" value="answer 1">Ответ 1</div>
+				<div><input type="radio" name="quetion 2" value="answer 2">Ответ 2</div>
+		</div>
+		<div>
+			<p><b>Вопрос №3:</b></p>
+				<div><input type="radio" name="quetion 3" value="answer 1">Ответ 1</div>
+				<div><input type="radio" name="quetion 3" value="answer 2">Ответ 2</div>
+		</div>
+		<div>
+			<p><b>Вопрос №4:</b></p>
+				<div><input type="checkbox" name="quetion 4" value="answer 1">Ответ 1</div>
+				<div><input type="checkbox" name="quetion 4" value="answer 2">Ответ 2</div>
+				<div><input type="checkbox" name="quetion 4" value="answer 3">Ответ 2</div>
+		</div>
+		<div>
+			<p><b>Вопрос №5:</b></p>
+			<p>Прикрепите верное фото:</p>
+				<input type="file" name="foto">
+		</div>
+
+
+
+
+
+	</form>
+
+	</body>
+</html>
