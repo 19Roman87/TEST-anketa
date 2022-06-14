@@ -4,72 +4,74 @@
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Формы</title>
 	<link rel="stylesheet" href="css/style.css">
+	<title>Урок</title>
 </head>
 	<body>
-	<form target="_blank" action="#" method="post" enctype="multipart/form-data">
-		<div>
+		<nav>
+			<span>О нас</span>
+			<span>Партнеры</span>
+			<span><a href="https://spravka109.ru/" target="_blank">Контакты</a></span>
+		</nav>
+		<h1 class="zagolovok">АНКЕТА</h1>
+			<p class="opisanie">Прежде чем заполнить нашу анкету, ознакомьтесь с <a href="index2.html" title="условия конфиденциальности" target="_blank"> условиями конфиденциальности</a> на нашем сайте. Ведь все что Вы укажите в анкете не желательно знать посторонним лицам. Мошенники могут воспользоваться вашими личными данными.</p>
+		<form action="#" method="post" enctype="multipart/form-data"> 
+			<p><b>Войдите если Вы уже зарегистрированы:</b></p>
+				<p><input class="shadow2" type="text" name="username" placeholder="Логин"></p>
+				<p><input class="shadow2" type="password" name="userpass" placeholder="Пароль"></p>
+				<button type="submit" name="login">Войти</button>
+			<p><b>Если Вы не зарегистрированы, пройдите анкетирование, указав свои персональные данные, регистрация произойдет автоматически. Пароль прийтед на указанный телефон.</b></p>
 			<p><b>ФИО:</b></p>
-			<input tabindex="1" placeholder="Фамилия" type="text" name="familiya" value="">
-			<input tabindex="2" placeholder="Имя" type="text"name="imya" value="">
-			<input tabindex="3" placeholder="Отчество" type="text"name="otchestvo" value="">
-		</div>
-		<div>
-			<p><b>Укажи свой телефон:</b></p>
-			<input tabindex="4" placeholder="Мобильный" type="tel" name="userphone" value="">
-		</div>
-		<div>
-			<p><b>Пароль:</b></p>
-			<input tabindex="5" placeholder="Пароль" type="password" name="userpass" value="">
-		</div>
-		<div>
-			<p><b>Пол:</b></p>
-			<select name="pol">
-				<option value="male">Мужик</option>
-				<option value="female">Баба</option>
-				<option selected value="Soberis tryapka">Соберись тряпка!</option>
-			</select>
-		<div>
-			<p><b>Раскажите немного о себе:</b></p>
-			<textarea tabindex="4" name="text" rows="5" cols="21" placeholder="Укажите свои увлечения и хобби, цели на будущее"></textarea>
-		</div>
-		<div>
-			<p><b>Вопрос №1:</b></p>
-				<div><input type="radio" name="quetion 1" value="answer 1">Ответ 1</div>
-				<div><input type="radio" name="quetion 1" value="answer 2">Ответ 2</div>
-		</div>
-		<div>
-			<p><b>Вопрос №2:</b></p>
-				<div><input type="radio" name="quetion 2" value="answer 1">Ответ 1</div>
-				<div><input type="radio" name="quetion 2" value="answer 2">Ответ 2</div>
-		</div>
-		<div>
-			<p><b>Вопрос №3:</b></p>
-				<div><input type="radio" name="quetion 3" value="answer 1">Ответ 1</div>
-				<div><input type="radio" name="quetion 3" value="answer 2">Ответ 2</div>
-		</div>
-		<div>
-			<p><b>Вопрос №4:</b></p>
-				<div><input type="checkbox" name="quetion 4" value="answer 1">Ответ 1</div>
-				<div><input type="checkbox" name="quetion 4" value="answer 2">Ответ 2</div>
-				<div><input type="checkbox" name="quetion 4" value="answer 3">Ответ 2</div>
-		</div>
-		<div>
-			<p><b>Вопрос №5:</b></p>
-			<p>Прикрепите верное фото:</p>
-				<input type="file" name="foto">
-		</div>
-		<div>
-			<p><b>А точно все ВЕРНО?</b></p>
-			<button type="submit">Послать</button>
-			<button type="reset">Очистить</button>
-		</div>
+				<input class="shadow2" type="text" name="familiya" placeholder="Фамилия">
+				<input class="shadow2" type="text" name="imya" placeholder="Имя">
+				<input class="shadow2" type="text" name="otchestvo" placeholder="Отчество">
+			<p><b>Загрузите свою аватарку:</b></p>
+				<input type="file">
+			<p><b>Телефон:</b></p>
+				<p><input type="tel" name="phonenumber"></p>
+			<p><b>Ответьте на пару вопросов:</b></p>
+				<p><b>Вопрос №1:</b></p>
+					<p>
+						<input type="radio" name="quetion1" value="answer1">Вариант 1
+						<input type="radio" name="quetion1" value="answer2">Вариант 2
+						<input type="radio" name="quetion1" value="answer3">Вариант 3
+					</p>
+				<p><b>Вопрос №2:</b></p>
+					<p>
+					<input type="radio" name="quetion2" value="answer1">Вариант 1
+					<input type="radio" name="quetion2" value="answer2">Вариант 2
+					<input type="radio" name="quetion2" value="answer3">Вариант 3
+				</p>
+				<p><b>Вопрос №3:</b></p>
+				<p>
+					<input type="checkbox" name="quetion3" value="answer1">Вариант 1
+					<input type="checkbox" name="quetion3" value="answer2">Вариант 2
+					<input type="checkbox" name="quetion3" value="answer3">Вариант 3
+				</p>
+				<p><b>Вопрос №4:</b></p>
+				<p>
+					<textarea class="shadow2" name="quetion4" rows="5" cols="15" placeholder="Дайте развернутый ответ"></textarea>
+				</p>
+				<p><b>Вопрос №5:</b></p>
+				<select name="quetion5">
+					<option value=""></option>
+					<option value="answer1">Вариант 1</option>
+					<option value="answer2">Вариант 2</option>
+					<option value="answer3">Вариант 3</option>
+				</select>
+				<p>
+					<button type="submit">Отправить</button>
+					<button type="reset">Очистить</button>
+				</p>
+				
 
-
-
-
-	</form>
-
+		</form>
+		<footer>
+			<nav>
+				<span>О нас</span>
+				<span>Партнеры</span>
+				<span><a href="https://spravka109.ru/" target="_blank">Контакты</a></span>
+			</nav>
+		</footer>
 	</body>
 </html>
