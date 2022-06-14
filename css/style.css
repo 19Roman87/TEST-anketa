@@ -1,3 +1,5 @@
+
+/*Обнуление
 *{
 	padding: 0;
 	margin: 0;
@@ -34,3 +36,24 @@ ul li{list-style: none;}
 img{vertical-align: top;}
 
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+--------------------*/
+
+
+.zagolovok{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 80px;
+	text-shadow: 1px 1px 40px black;
+	text-decoration: underline;
+	text-align: center;
+}
+nav{
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	font-size: 25px;
+}
+.opisanie{
+	text-align: justify;
+	letter-spacing: 2px;
+}
+.shadow2{
+	text-shadow: 1px 1px 10px black;
+}
